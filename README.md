@@ -1,6 +1,6 @@
 # docker-openvino-linux
 
-[![Build Status](https://travis-ci.com/KnightWhoSayNi/docker-openvino-linux.svg?branch=master)](https://travis-ci.com/KnightWhoSayNi/docker-openvino-linux) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/KnightWhoSayNi/docker-openvino-linux/blob/master/LICENSE)
+[![Build Status](https://travis-ci.com/KnightWhoSayNi/docker-openvino-linux.svg?branch=master)](https://travis-ci.com/KnightWhoSayNi/docker-openvino-linux) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/KnightWhoSayNi/docker-openvino-linux/blob/master/LICENSE) ![Docker Pulls](https://img.shields.io/docker/pulls/threeheadedknight/docker-openvino-linux) ![Docker Stars](https://img.shields.io/docker/stars/threeheadedknight/docker-openvino-linux)
 
 Simple Dockerfile with a Linux Developer Package of Intel® OpenVINO™ toolkit.
 There is no need for any manual toolkit download before building this Docker image.
@@ -16,13 +16,24 @@ There is no need for any manual toolkit download before building this Docker ima
 
 ## Usage
 
-### Build
+
+### From Docker Hub
+
+#### Pull
+
+```shell
+docker pull threeheadedknight/docker-openvino-linux
+```
+
+### From Dockerfile
+
+#### Build
 
 ```shell
 docker build -t openvino-image .
 ```
 
-### Run
+#### Run
 
 ```shell
 docker run -ti openvino-image
