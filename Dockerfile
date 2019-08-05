@@ -42,7 +42,7 @@ RUN wget -O OPENVINO_GPG_PUB_KEY ${OPENVINO_GPG_PUB_KEY} && \
     echo "deb https://apt.repos.intel.com/openvino/2019/ all main" > /etc/apt/sources.list.d/intel-openvino-2019.list && \
     apt-get update && \
     apt-cache search openvino && \
-    apt-get install -y intel-openvino-dev-ubuntu16 && \
+    apt-get install -y intel-openvino-dev-ubuntu16-2019.2.242 && \
     apt-get clean && \
     apt-get autoremove
 

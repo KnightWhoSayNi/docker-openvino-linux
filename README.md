@@ -14,7 +14,7 @@ There is no need for any manual toolkit download before building this Docker ima
 * Model Optimizer for Caffe, TensorFlow, MXNet, Kaldi and ONNX
 * Python `3`
 
-## Running
+## Usage
 
 ### Build
 
@@ -22,7 +22,7 @@ There is no need for any manual toolkit download before building this Docker ima
 docker build -t openvino-image .
 ```
 
-### Usage
+### Run
 
 ```shell
 docker run -ti openvino-image
