@@ -1,0 +1,14 @@
+language: generic
+
+git:
+    quiet: true
+
+branches:
+  only:
+    - master
+
+services:
+  - docker
+
+script:
+  - docker build -t openvino-image:latest .
