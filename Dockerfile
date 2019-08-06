@@ -7,6 +7,7 @@ RUN apt-get update -qq && \
 RUN apt-get install -y --no-install-recommends \
     curl \
     wget \
+    zip \
     unzip \
     git \
     bash \
