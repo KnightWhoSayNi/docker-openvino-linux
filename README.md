@@ -25,7 +25,7 @@ There is no need for any manual toolkit download before building this Docker ima
 docker pull threeheadedknight/docker-openvino-linux
 ```
 
-#### In a Dokerfile
+#### In a Dockerfile
 
 ```shell
 FROM threeheadedknight/docker-openvino-linux:latest
