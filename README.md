@@ -10,7 +10,7 @@ There is no need for any manual toolkit download before building this Docker ima
 * Docker image based on Ubuntu `16.04`
 * Intel® OpenVINO™ toolkit for Linux
 * Developer Package for Ubuntu `16.04`
-* OpenVINO™ `2019.2.242`
+* OpenVINO™ `2019.3.376`
 * Model Optimizer for Caffe, TensorFlow, MXNet, Kaldi and ONNX
 * Python `3`
 
